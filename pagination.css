@@ -1,0 +1,148 @@
+/*
+*	File : pagination.css
+*	Author : sjshank
+*	Description : stylesheet for custom pagination
+*
+*/
+
+.dataTables_info,.paging_custome_pagination,.dataTables_length {
+	overflow: hidden;
+	padding-bottom: 0.1em;
+	padding-top: 0.4em;
+}
+
+.dataTables_info,.paging_custome_pagination,.dataTables_length,.paging_custome_pagination input,.paging_custome_pagination select
+.paging_custome_pagination option {
+	font-size: 12px;
+}
+
+.paging_custome_pagination {
+	float: left;
+}
+
+.paging_custome_pagination a:active {
+	outline: none
+}
+
+.paging_custome_pagination a:hover {
+	text-decoration: none;
+}
+
+.paging_custome_pagination a.paginate_button,.paging_custome_pagination a.paginate_active
+	{
+	cursor: pointer;
+	*cursor: hand;
+}
+
+.paging_custome_pagination a.paginate_button {
+	
+}
+
+.paging_custome_pagination a {
+	text-decoration: none !important;
+}
+
+.paging_custome_pagination a.paginate_active {
+	text-decoration: none;
+	background-color: #99B3FF;
+}
+
+.pager-list-btn-container {
+	background-image: url("../images/pagination/pagenationButtonBase.jpg");
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.pager-list-btn-container span {
+	padding-left: 1.68em;
+	margin-left: 0.7em;
+}
+
+.pager-list-btn-container li {
+	padding-top: 0.45em;
+}
+
+.pager-list ul {
+	list-style: none;
+}
+
+.pager-list li {
+	float: left;
+	list-style: none;
+}
+
+span.btn-img,.paginate_button {
+	background-repeat: no-repeat;
+}
+
+.first.paginate_button span.btn-img {
+	background-image: url("../images/pagination/firstArrowDefault.jpg");
+}
+
+.first.paginate_button.paginate_button_disabled span.btn-img {
+	background-image: url("../images/pagination/firstArrow.jpg");
+}
+
+.first.paginate_button:not (.paginate_button_disabled ):hover span.btn-img
+	{
+	background-image: url("../images/pagination/firstArrowHover.jpg");
+}
+
+.previous.paginate_button span.btn-img {
+	background-image: url("../images/pagination/prevArrowDefault.jpg");
+}
+
+.previous.paginate_button.paginate_button_disabled span.btn-img {
+	background-image: url("../images/pagination/prevArrow.jpg");
+}
+
+.previous.paginate_button:not (.paginate_button_disabled ):hover span.btn-img
+	{
+	background-image: url("../images/pagination/prevArrowHover.jpg");
+}
+
+.next.paginate_button span.btn-img {
+	background-image: url("../images/pagination/nextArrowDefault.jpg");
+}
+
+.next.paginate_button.paginate_button_disabled span.btn-img {
+	background-image: url("../images/pagination/nextArrow.jpg");
+}
+
+.next.paginate_button:not (.paginate_button_disabled ):hover span.btn-img
+	{
+	background-image: url("../images/pagination/nextArrowHover.jpg");
+}
+
+.last.paginate_button span.btn-img {
+	background-image: url("../images/pagination/lastArrowDefault.jpg");
+}
+
+.last.paginate_button.paginate_button_disabled span.btn-img {
+	background-image: url("../images/pagination/lastArrow.jpg");
+}
+
+.last.paginate_button:not (.paginate_button_disabled ):hover span.btn-img
+	{
+	background-image: url("../images/pagination/lastArrowHover.jpg");
+}
+
+.pager-list-input {
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 110px;
+}
+
+.lui-input-field {
+	border: 1px solid #afa397;
+	height: 18px;
+	text-align: center;
+	width: 28px;
+}
+
+.pager-pg-list {
+	color: #4d4b44;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 54px;
+}
