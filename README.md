@@ -1,4 +1,4 @@
-# customDatatablePagination
+# Datatable Pagination Plugin
 
   The motive is to give rough idea about how you can create/plugged in your datatable pagination pluign in your application and   registered inside datatable initialize configuration using 'paginType' attribute.
   
