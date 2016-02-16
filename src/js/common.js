@@ -1,11 +1,11 @@
 require.config({
-	baseUrl : "/",
+	baseUrl : "js/",
 	paths : {
 		jquery: "lib/jquery.min",
 		datatable : "lib/jquery.dataTables.min"
 	},
 	shim : {
-			"jquerydatatable" : {
+			"datatable" : {
 				deps: ["jquery"]
 			}
 		}
