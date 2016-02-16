@@ -4,7 +4,7 @@
   
   
   
-  Datatable has 5 types of in-built pagination. To use a particular pagination type, datatable provides one attribute 'paginateType' where developer has to specific registered pagination type.
+  Datatable has 5 types of in-built pagination. To use a each pagination type, datatable provides one attribute 'paginateType' where one has to specify pagination type.
   
     1. numbers
     2. simple
@@ -12,11 +12,12 @@
     4. full
     5. full_numbers
   
-  So as to customize pagination, it is required to create and registered our own pagination type based on requirement which has been written in datatable.pagination.plugin.js file and plugged in as a pagination plugin.
-  The registered pagingType here in plugin is 'custome_pagination'.
+  what if one get a requirment to customize datatable pagination w.r.t look and feel and user experience. In that case, it's required to create our own pagination type based on requirement and plugged in as a pagination plugin.
+  In this example, I have written custome pagination code in a separate file datatable.pagination.plugin.js and plugging it as 'custome_pagination' pagingType while rendering HTML Table with data.
+ 
   
-  File pagination.events.js is being used to handle DOM events used in pagination like jump to user entered page, diplay no records based on dropdown selection, etc.
-  To register all the events at time of table load, one has to call public method 'listenToEvents()'
+  File pagination.events.js is being used to handle DOM events used in pagination like jump to page, diplay no records based on dropdown selection, etc.
+  Bind all the events at time of HTML table load by calling public method 'listenToEvents()'
   
   File datatable.initialize.js, it's initializer for datatable. To configure/initialize call 'buildDataTable(yourTableID, options)' from your file. It has below configuration to render customize pagination.
   
